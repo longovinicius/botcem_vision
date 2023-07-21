@@ -166,16 +166,16 @@ class ImageProcessor:
 
 # Example usage:
 # if __name__ == "__main__":
-#     image_processor = ImageProcessor()
+#     
+# Load an image
+    # img = cv2.imread("real.jpg")
 
-#     # Load an image
-#     self.img = cv2.imread("path/to/your/image.jpg")
+    # vision = ImageProcessor(img)
 
-#     # Call the functions using the instance of the class
-#     average_color = image_processor.extract_non_black_color(self.img)
-#     distance = image_processor.get_measurement(self.img)
+    # # Call the functions using the instance of the class
+    # distance = vision.get_measurement()
 
-#     target_color_rgb = (0, 255, 0)  # Example target color (green)
-#     contours = image_processor.get_contour(self.img, target_color_rgb, tolerance=30, show_img=True)
+    # average_color = vision.extract_non_black_color()
 
-    # Continue using other functions as needed
+    # target_color_rgb = (0, 255, 0)  # Example target color (green)
+    # contours = vision.get_contour(target_color_rgb)
